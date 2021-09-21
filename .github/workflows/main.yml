@@ -1,6 +1,5 @@
-on:
-  push:
-    branches: ['push']
+name: Build & push container image to GH packages
+on: [push]
 
 env:
   REGISTRY: ghcr.io
